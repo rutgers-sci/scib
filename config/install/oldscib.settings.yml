@@ -13,9 +13,3 @@
 
 # Disable the CDN provider so compiled source files can be used.
 cdn_provider: ''
-
-logo:
-  path: 'themes/contrib/scib/logo.png'
-  use_default: false
-
-fluid_container: 1
