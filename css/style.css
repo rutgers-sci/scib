@@ -6398,7 +6398,7 @@ p:last-child,
       text-decoration: underline;
       background-color: #030303; }
 
-/*searchtop region*/
+/*searchtop region - default is not to show - unless click on upper right search icon*/
 .region-searchtop {
   clear: both;
   width: 100%;
