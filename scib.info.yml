@@ -8,6 +8,7 @@ package: 'Bootstrap'
 
 regions:
   topper: 'Topper Area'
+  searchtop: 'Secret Region for search'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
