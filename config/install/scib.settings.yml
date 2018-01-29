@@ -15,7 +15,7 @@
 cdn_provider: ''
 
 logo:
-  path: 'themes/contrib/scib/logo.png'
+  path: 'themes/custom/scib/logo.png'
   use_default: false
 
 fluid_container: 1
