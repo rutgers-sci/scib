@@ -6537,17 +6537,33 @@ p:last-child,
     text-decoration: none;
     color: #cc0033; }
 
-/*link to more*/
-.field--name-field-link-to-more a::before {
-  content: '';
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 5px 0px 5px 5px;
-  border-color: transparent transparent transparent #333333;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 5px; }
+.cardrow {
+  padding: 0 100px; }
+  @media (max-width: 1249px) {
+    .cardrow {
+      padding: 0; } }
+  .cardrow .card-container:nth-child(2) {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee; }
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  /* On mouse-over, add a deeper shadow */ }
+  .card img:hover {
+    opacity: 0.8;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+  .card h3 {
+    margin-bottom: 0; }
+  .card h3 a {
+    color: #333;
+    font-family: "Raleway",Helvetica,Arial,sans-serif; }
+  .card h4 {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    font-family: "lato",Helvetica,Arial,sans-serif;
+    color: #03315c;
+    letter-spacing: 2px; }
 
 /*text image right*/
 .paragraph--type--text-image-right .field--name-field-image-right {
@@ -6589,42 +6605,6 @@ p:last-child,
     border: 1px solid #eee;
     font-size: 14px;
     height: 122px; }
-
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  width: 300px;
-  border: 1px solid gray;
-  min-height: 250px;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px 5px 0 0;
-  /* On mouse-over, add a deeper shadow */ }
-  .card img:hover {
-    opacity: 0.8;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
-  .card h3 {
-    margin-bottom: 0; }
-  .card h3 a {
-    color: #333; }
-  .card .field-paragraph--field-tease .field__items {
-    justify-content: flex-start; }
-  .card .field-paragraph--field-card-title, .card .field-paragraph--field-tease {
-    padding-left: 10px; }
-  @media all and (max-width: 1325px) and (min-width: 1000px) {
-    .card {
-      margin: 10px 80px; } }
-
-/*
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}*/
-.cards .paracard__items {
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
 
 /* faq bootstrap accordion */
 .panel-group {
