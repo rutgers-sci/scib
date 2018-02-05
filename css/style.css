@@ -10,6 +10,10 @@
  * You can copy existing variables directly from the following file:
  * ./scib/bootstrap/assets/stylesheets/bootstrap/_variables.scss
  */
+/* ---------------------------------------------------------
+Embedded fonts styles - this was on comminfo in main.scss
+   ---------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,200italic,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic,100,100italic);
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
