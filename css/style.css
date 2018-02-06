@@ -6464,6 +6464,12 @@ p:last-child,
 .main-container {
   max-width: 1600px; }
 
+.region-content .field--name-body, .region-content .page-header {
+  padding: 0 117px; }
+  @media (max-width: 1249px) {
+    .region-content .field--name-body, .region-content .page-header {
+      padding: 0; } }
+
 /*footer*/
 .footer {
   background-color: #485b6e;
@@ -6564,6 +6570,13 @@ p:last-child,
     font-family: "lato",Helvetica,Arial,sans-serif;
     color: #03315c;
     letter-spacing: 2px; }
+
+/*text widget*/
+.paragraph--type--text-widget {
+  padding: 0 117px; }
+  @media (max-width: 1249px) {
+    .paragraph--type--text-widget {
+      padding: 0; } }
 
 /*text image right*/
 .paragraph--type--text-image-right .field--name-field-image-right {
@@ -6793,6 +6806,9 @@ p:last-child,
     @media (max-width: 767px) {
       .panel-body .text {
         padding-right: 0; } }
+
+h1, h2, h3 {
+  font-family: "Raleway",Helvetica,Arial,sans-serif; }
 
 /* PEOPLE - .field-node--field-pic is for regular view, PUBLICATIONS, PROJECTS
 ==========================*/

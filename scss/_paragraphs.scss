@@ -24,6 +24,14 @@
     letter-spacing: 2px;}
 }
 
+/*text widget*/
+.paragraph--type--text-widget{
+  padding: 0 117px;
+  @include media("<widescreen") {
+    padding: 0;
+  }
+}
+
 /*text image right*/
 .paragraph--type--text-image-right {
   .field--name-field-image-right{

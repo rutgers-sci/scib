@@ -109,6 +109,12 @@
 
 /*layout*/
 .main-container {max-width: 1600px;}
+.region-content .field--name-body, .region-content .page-header {
+  padding: 0 117px;
+  @include media("<widescreen") {
+    padding: 0;
+  }
+}
 
 /*footer*/
 .footer {background-color: $darkgray; color: #fff;}
