@@ -6571,11 +6571,11 @@ p:last-child,
     color: #03315c;
     letter-spacing: 2px; }
 
-/*text widget*/
-.paragraph--type--text-widget {
+/*text widget, text module*/
+.paragraph--type--text-widget, .paragraph--type--text-module {
   padding: 0 117px; }
   @media (max-width: 1249px) {
-    .paragraph--type--text-widget {
+    .paragraph--type--text-widget, .paragraph--type--text-module {
       padding: 0; } }
 
 /*text image right*/

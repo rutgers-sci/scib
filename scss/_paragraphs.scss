@@ -24,8 +24,8 @@
     letter-spacing: 2px;}
 }
 
-/*text widget*/
-.paragraph--type--text-widget{
+/*text widget, text module*/
+.paragraph--type--text-widget, .paragraph--type--text-module{
   padding: 0 117px;
   @include media("<widescreen") {
     padding: 0;
