@@ -6510,6 +6510,13 @@ p:last-child,
     .col-sm-9 .region-content .block-views {
       margin: 0 0 10px; } }
 
+/*breadcrumb*/
+.breadcrumb {
+  padding: 0 15px; }
+  @media (max-width: 767px) {
+    .breadcrumb {
+      display: none; } }
+
 /*footer*/
 .footer {
   background-color: #485b6e;

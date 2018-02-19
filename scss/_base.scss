@@ -156,6 +156,14 @@
   }
 }
 
+/*breadcrumb*/
+.breadcrumb {
+  padding: 0 15px;
+  @include media("<tablet") {
+    display: none;
+  }
+}
+
 /*footer*/
 .footer {background-color: $darkgray; color: #fff;}
 .footright {float: right; width: 350px;}
