@@ -6973,7 +6973,9 @@ h1, h2, h3 {
       padding: 0 10px; } }
 
 .judge h2 {
-  font-size: 22px; }
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 5px; }
 
 /*teams - used for CISSL*/
 .team .views-row {
